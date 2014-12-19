@@ -1,0 +1,57 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SpotsearchTutorial</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="styles/7b5bd8e0.main.css">
+        <script src="scripts/vendor/a52a8685.modernizr.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="container">
+            <div class="header">
+                <ul class="nav nav-pills pull-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#playlist">Playlists</a></li>
+                    <li><a href="#album">Album</a></li>
+                </ul>
+                <h3 class="text-muted">SpotsearchTutorial</h3>
+            </div>
+
+            <div id="search-container">
+                <form action="" id="spotForm" class="form-inline">
+                    <div class="form-group">
+                        <input type="text" placeholder="Search" id="search-query" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label><input type="radio" name="type" value="albums" checked="checked"> Albums</label>
+                    </div>
+                    <div class="form-group">
+                        <label><input type="radio" name="type" value="artists"> Artists</label>
+                    </div>
+                    <input type="button" value="Submit" id="submit" class="btn btn-default">
+                </form>
+            </div>
+
+            <div id="artist-search-container">Artist search results go here...</div>
+            <div id="album-search-container">Album search results go here</div>
+            <div id="album-container">Album View here</div>
+            <div id="playlist-container">Playlist view here</div>
+
+            <div class="footer">
+                <p>♥ from FGS</p>
+            </div>
+
+        </div>
+
+        <script data-main="scripts/d41d8cd9.main" src="bower_components/requirejs/require.js"></script>
+</body>
+</html>
